@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist-test",
+    "rootDir": "."
+  },
+  "include": [
+    "src/game/**/*.ts"
+  ]
+}

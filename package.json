@@ -1,0 +1,10 @@
+{
+  "name": "arcade-brick-breaker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "rm -rf dist-test && (find src/game -name '*.ts' 2>/dev/null | grep -q . && tsc -p tsconfig.test.json || true) && node scripts/build-web-bundle.js && node --test tests/*.test.js",
+    "build:web": "/Users/bytedance/go/src/study/.layaair/layaair build web -p . --skip-package-install && node scripts/build-web-bundle.js"
+  }
+}

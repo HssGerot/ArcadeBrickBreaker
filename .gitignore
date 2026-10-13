@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# LayaAir generated files
+release/
+library/
+local/
+bin/js/bundles/
+
+# Local build/test output
+dist-test/
+dist-web/
+
+# Logs and system files
+*.log
+.DS_Store
